@@ -1,0 +1,11 @@
+{
+  "name": "djedops-monorepo",
+  "private": true,
+  "scripts": {
+    "build": "cd frontend && npm ci && npm run build",
+    "dev": "cd frontend && npm run dev",
+    "start": "cd frontend && npm run start",
+    "backend:start": "cd backend && npm ci && npm start",
+    "lint": "cd frontend && npm run lint"
+  }
+}
