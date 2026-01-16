@@ -167,7 +167,7 @@ function evaluateCondition(condition: NonNullable<WorkflowNode['condition']>): b
 /**
  * Generate mock output data based on applet type
  */
-function generateMockOutput(appletType: string): any {
+function generateMockOutput(appletType: string): Record<string, unknown> {
   const timestamp = Date.now();
 
   switch (appletType) {

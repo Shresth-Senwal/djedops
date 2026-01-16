@@ -3,7 +3,7 @@
  * Pre-built workflow configurations for common use cases
  */
 
-import { Workflow, WorkflowNode, WorkflowConnection } from './workflow-types';
+import { Workflow } from './workflow-types';
 
 export interface WorkflowTemplate {
   id: string;

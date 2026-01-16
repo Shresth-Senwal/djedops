@@ -126,7 +126,7 @@ export interface ExecutionLogEntry {
     status: 'success' | 'failed' | 'skipped';
     startTime: number;
     endTime: number;
-    output?: any;
+    output?: Record<string, unknown> | null;
     error?: string;
   }[];
   totalDuration: number;
